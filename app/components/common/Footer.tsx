@@ -10,7 +10,7 @@ export default function Footer() {
         {/* SOCIALS */}
         <div className="flex items-center gap-4">
           <Link
-            href="https://instagram.com"
+            href="https://instagram.com/madargroupheadoffice/"
             target="_blank"
             aria-label="Instagram"
             className="group flex h-12 w-12 items-center justify-center rounded-full border border-neutral-300 transition-all duration-300 hover:-translate-y-1 hover:border-black hover:bg-black"
@@ -19,7 +19,7 @@ export default function Footer() {
           </Link>
 
           <Link
-            href="https://twitter.com"
+            href="https://x.com/MadarGroup_HO/"
             target="_blank"
             aria-label="Twitter"
             className="group flex h-12 w-12 items-center justify-center rounded-full border border-neutral-300 transition-all duration-300 hover:-translate-y-1 hover:border-black hover:bg-black"
@@ -30,7 +30,15 @@ export default function Footer() {
 
         {/* COPYRIGHT */}
         <p className="mt-6 text-center text-sm tracking-wide text-neutral-500">
-          © 2026 MADAR. All rights reserved.
+          © 2026{" "}
+          <Link
+            href="https://www.madargroup.com"
+            target="_blank"
+            className="hover:underline"
+          >
+            MADAR
+          </Link>
+          . All rights reserved.
         </p>
       </div>
     </footer>
