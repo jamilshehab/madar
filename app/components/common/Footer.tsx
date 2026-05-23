@@ -5,7 +5,10 @@ import { FaInstagram, FaXTwitter } from "react-icons/fa6";
 
 export default function Footer() {
   return (
-    <footer className="w-full border-t border-neutral-200 bg-white">
+    <footer
+      className="w-full border-t border-neutral-200 bg-white"
+      id="contact"
+    >
       <div className="container mx-auto flex flex-col items-center justify-center px-6 py-8">
         {/* SOCIALS */}
         <div className="flex items-center gap-4">

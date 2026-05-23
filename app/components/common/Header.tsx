@@ -41,7 +41,6 @@ export default function Navbar() {
   const navLinks = [
     { href: "#", label: "الرئيسية" },
     { href: "#about", label: "من نحن" },
-    { href: "#products", label: "منتجاتنا" },
     { href: "#vision", label: "رؤيتنا" },
     { href: "#why-us", label: "لماذا نحن" },
     { href: "#sustainability", label: "الاستدامة" },
