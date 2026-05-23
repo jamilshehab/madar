@@ -23,7 +23,7 @@ export default function AboutPage() {
   return (
     <main className="bg-white overflow-hidden">
       {/* ABOUT US */}
-      <section className="pt-12">
+      <section className="pt-12" id="about">
         <div className="mx-auto">
           <motion.div
             variants={fadeUp}
@@ -89,7 +89,7 @@ export default function AboutPage() {
       </section>
 
       {/* VISION */}
-      <section>
+      <section id="vision">
         <div className="mx-auto">
           <motion.div
             variants={fadeUp}
@@ -149,7 +149,7 @@ export default function AboutPage() {
       </section>
 
       {/* MISSION */}
-      <section>
+      <section id="mission">
         <div className="mx-auto">
           <motion.div
             variants={fadeUp}
@@ -210,7 +210,7 @@ export default function AboutPage() {
       </section>
 
       {/* WHY CHOOSE US */}
-      <section className="py-24 bg-sky-50">
+      <section id="why-us" className="py-24 bg-sky-50">
         <div className="max-w-7xl mx-auto">
           <motion.div
             variants={fadeUp}
@@ -278,7 +278,7 @@ export default function AboutPage() {
       </section>
 
       {/* SUSTAINABILITY */}
-      <section>
+      <section id="sustainability">
         <div className="mx-auto">
           <motion.div
             variants={fadeUp}
